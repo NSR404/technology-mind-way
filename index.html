@@ -1,0 +1,1015 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="noindex">
+
+    <title>Technology Mind</title>
+    <!-- web fonts -->
+    <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Hind&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-webfont3e6e.ttf">
+
+    <!-- FAVICON -->
+    <link rel="stylesheet icon" href="assets/images/Brand/way-icon.ico" class="way_icon" type="image/x-icon">
+
+    <!-- File  CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+<body>
+<!-- New toolbar-->
+<style>
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+
+#w3lDemoBar.w3l-demo-bar {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+  padding: 40px 5px;
+  padding-top:70px;
+  margin-bottom: 70px;
+  background: #0D1326;
+  border-top-left-radius: 9px;
+  border-bottom-left-radius: 9px;
+}
+
+#w3lDemoBar.w3l-demo-bar a {
+  display: block;
+  color: #e6ebff;
+  text-decoration: none;
+  line-height: 24px;
+  opacity: .6;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+#w3lDemoBar.w3l-demo-bar span.w3l-icon {
+  display: block;
+}
+
+#w3lDemoBar.w3l-demo-bar a:hover {
+  opacity: 1;
+}
+
+#w3lDemoBar.w3l-demo-bar .w3l-icon svg {
+  color: #e6ebff;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons {
+  margin-top: 30px;
+  border-top: 1px solid #41414d;
+  padding-top: 40px;
+}
+#w3lDemoBar.w3l-demo-bar .demo-btns {
+  border-top: 1px solid #41414d;
+  padding-top: 30px;
+}
+#w3lDemoBar.w3l-demo-bar .responsive-icons a span.fa {
+  font-size: 26px;
+}
+#w3lDemoBar.w3l-demo-bar .no-margin-bottom{
+  margin-bottom:0;
+}
+.toggle-right-sidebar span {
+  background: #0D1326;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #e6ebff;
+  border-radius: 50px;
+  font-size: 26px;
+  cursor: pointer;
+  opacity: .5;
+}
+.pull-right {
+  float: right;
+  position: fixed;
+  right: 0px;
+  top: 70px;
+  width: 90px;
+  z-index: 99999;
+  text-align: center;
+}
+/* ============================================================
+RIGHT SIDEBAR SECTION
+============================================================ */
+
+#right-sidebar {
+  width: 90px;
+  position: fixed;
+  height: 100%;
+  z-index: 1000;
+  right: 0px;
+  top: 0;
+  margin-top: 60px;
+  -webkit-transition: all .5s ease-in-out;
+  -moz-transition: all .5s ease-in-out;
+  -o-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  overflow-y: auto;
+}
+
+
+/* ============================================================
+RIGHT SIDEBAR TOGGLE SECTION
+============================================================ */
+
+.hide-right-bar-notifications {
+  margin-right: -300px !important;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+
+
+@media (max-width: 992px) {
+  #w3lDemoBar.w3l-demo-bar a.desktop-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 767px) {
+  #w3lDemoBar.w3l-demo-bar a.tablet-mode{
+      display: none;
+
+  }
+}
+@media (max-width: 568px) {
+  #w3lDemoBar.w3l-demo-bar a.mobile-mode{
+      display: none;
+  }
+  #w3lDemoBar.w3l-demo-bar .responsive-icons {
+      margin-top: 0px;
+      border-top: none;
+      padding-top: 0px;
+  }
+  #right-sidebar,.pull-right {
+      width: 90px;
+  }
+  #w3lDemoBar.w3l-demo-bar .no-margin-bottom-mobile{
+      margin-bottom: 0;
+  }
+}
+</style>
+
+   <!-- cursor -->
+   <div class="cursor"></div>
+  <!-- end cursor -->
+
+
+<!--w3l-header-->
+<!-- start section header -->
+<header class="w3l-header-nav">
+	<!--/nav-->
+	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
+		<div class="container">
+			<a target="_blank" class="navbar-brand" href="index.html">
+        <img src="assets/images/Brand/way.png" class="image_logo" alt="image-logo">   </a>
+			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="fa icon-expand fa-bars"></span>
+				<span class="fa icon-close fa-times"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto pl-lg-5">
+					<li class="nav-item @@home__active">
+						<a target="_blank" class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item @@about__active">
+						<a target="_blank" class="nav-link" href="about.html">About</a>
+					</li>
+					<li class="nav-item @@services__active">
+						<a target="_blank" class="nav-link" href="services.html">Services</a>
+					</li>
+					<li class="nav-item dropdown @@blog__active">
+						<a target="_blank" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Pages <span class="fa fa-angle-down"></span>
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a target="_blank" class="dropdown-item" href="blog.html">Blog</a>
+							<a target="_blank" class="dropdown-item" href="blog-single.html">Blog Single</a>
+							<a target="_blank" class="dropdown-item" href="single.html">Landing Page</a>
+						</div>
+					</li>
+					<li class="nav-item @@contact__active">
+						<a target="_blank" class="nav-link" href="contact.html">Contact</a>
+					</li>
+				</ul>
+				
+                <!--/search-right-->
+				<div class="search-right">
+					<a href="#search" title="search"><span class="fa fa-search" aria-hidden="true"></span></a>
+					<!-- search popup -->
+					<div id="search" class="pop-overlay">
+						<div class="popup">
+
+							<form action="#" method="post" class="search-box">
+								<input type="search" placeholder="Saerch your Keyword" name="search" required="required"
+									autofocus="">
+								<button type="submit" class="btn"><span class="fa fa-search" aria-hidden="true"></span></button>
+							</form>
+
+						</div>
+						<a target="_blank" class="close" href="#close">×</a>
+					</div>
+					<!-- /search popup -->
+				</div>
+				<!--//search-right-->
+				
+			</div>
+		</div>
+	</nav>
+	<!--//nav-->
+</header>
+<!-- end section header -->
+<!-- end w3l-header -->
+
+<!-- start carousel & slider -->
+<section class="w3l-main-slider" id="home">
+  <!-- start main-slider -->
+  <div class="companies20-content">
+    <div class="owl-one owl-carousel owl-theme">
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view bg bg2" data-selector=".bg.bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg mx-auto text-center">
+                  <h5>Check out our latest financing ideas </h5>
+                 <a target="_blank" class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                 <div class="scroll-button">
+                  <a href="#about" class="scroll">
+                    <div class="icon-scroll">
+                      <div class="mouse">
+                        <div class="wheel"></div>
+                      </div>
+                      <div class="icon-arrows">
+                        <span></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info  banner-view banner-top1 bg bg2" data-selector=".bg.bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg mx-auto text-center">
+                  <h5>The largest financiers of ideas in the Middle East.</h5>
+                  <a target="_blank" class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                  <div class="scroll-button">
+                    <a href="#about" class="scroll">
+                      <div class="icon-scroll">
+                        <div class="mouse">
+                          <div class="wheel"></div>
+                        </div>
+                        <div class="icon-arrows">
+                          <span></span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view banner-top2 bg bg2" data-selector=".bg.bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg mx-auto text-center">
+                  <h5>Explore ideas and enjoy realizing them with us </h5>
+                 <a target="_blank" class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                 <div class="scroll-button">
+                  <a href="#about" class="scroll">
+                    <div class="icon-scroll">
+                      <div class="mouse">
+                        <div class="wheel"></div>
+                      </div>
+                      <div class="icon-arrows">
+                        <span></span>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+      <div class="item">
+        <li>
+          <div class="slider-info banner-view banner-top3 bg bg2" data-selector=".bg.bg2">
+            <div class="banner-info">
+              <div class="container">
+                <div class="banner-info-bg mx-auto text-center">
+                  <h5>The Largest business Expert in Newyork</h5>
+                  <a target="_blank" class="btn btn-secondary btn-theme2 mt-md-5 mt-4" href="services.html">Read More</a>
+                  <div class="scroll-button">
+                    <a href="#about" class="scroll">
+                      <div class="icon-scroll">
+                        <div class="mouse">
+                          <div class="wheel"></div>
+                        </div>
+                        <div class="icon-arrows">
+                          <span></span>
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </li>
+      </div>
+    </div>
+  </div>
+ <!-- end main-slider -->
+<!-- </div> -->
+
+  <!-- start js for header carousel -->
+  <script src="assets/js/owl.carousel.js"></script>
+  <!-- end js for header carousel -->
+
+
+  <!-- script for -->
+  <script>
+    $(document).ready(function () {
+      $('.owl-one').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        responsiveClass: true,
+        autoplay: false,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 1000,
+        autoplayHoverPause: false,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false
+          },
+          480: {
+            items: 1,
+            nav: false
+          },
+          667: {
+            items: 1,
+            nav: true
+          },
+          1000: {
+            items: 1,
+            nav: true
+          }
+        }
+      })
+    })
+  </script>
+  <!-- //script -->
+  <!-- /main-slider -->
+</section>
+<!-- end carousel & slider -->
+
+<!-- start aboute section  -->
+<section class="w3l-features-4">
+	<!-- start features -->
+		<div class="features py-5" id="about">
+          <div class="container py-lg-5">
+          
+              <div class="feat-top row">
+                        <div class="feat-top-left col-lg-4">
+                          <h4 class="sub-title">More than 10 years experience in the finance industry</h4>
+                          <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices posuere primis in faucibus</p>
+                          <a target="_blank" class="btn btn-secondary btn-theme2 mt-4" href="services.html"> See More Services  &rarr;</a>
+                        </div>
+                        <div class="fea-gd-vv col-lg-8 row mt-lg-0 mt-5 pl-lg-5">	
+                            <div class="float-lt feature-gd col-md-6">	
+                                <img src="assets/images/g5.jpg" class="img-fluid" alt="">
+                              <div class="icon-info">
+                                <h5 class="mt-3"><a href="#">Digital Innovation
+                                  </a></h5>
+                                <p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
+                              </div>
+                            
+                          </div>	
+                          <div class="float-mid feature-gd col-md-6 mt-md-0 mt-5">	
+                              <img src="assets/images/g3.jpg" class="img-fluid" alt="">
+                              <div class="icon-info">
+                                <h5 class="mt-3"><a href="#">Branding Strategy
+                                </a></h5>
+                                <p> Consectetur adipisicingelit, sed do eiusmod tempor incididunt primis in faucibus orci luctus et ultrices </p>
+                              </div>
+                        </div> 
+                                      
+                        </div> 
+              </div>
+         </div>
+	   </div>
+   <!-- end features -->
+</section>
+<!-- end aboute section  -->
+
+
+<!-- start section services -->
+<div class="w3l-open-block-services py-5" id="services">
+		<div class="container py-lg-5 pt-4">
+			<div class="heading text-center mx-auto">
+          <h3 class="head">Designed for you</h3>
+          <p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+            Nulla mollis dapibus nunc, ut rhoncus
+            turpis sodales quis. Integer sit amet mattis quam.</p>
+            
+			  </div>
+        <!-- start all services -->
+			<div class="row pt-5 mt-3">
+          <div class="col-lg-3 col-md-6">
+              <div class="card text-center">
+                <div class="icon-holder">
+                  <span class="fa fa-ravelry service-icon" aria-hidden="true"></span>
+                </div>
+                <h4 class="mission">Consulting</h4>
+                <div class="open-description">
+                  <p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
+                  <a target="_blank" href="#read">Read More</a>
+                </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-md-0 mt-3 pt-md-0 pt-3">
+            <div class="card text-center">
+              <div class="icon-holder">
+                <span class="fa fa-send-o service-icon" aria-hidden="true"></span>
+              </div>
+              <h4 class="mission">Valuable Ideas</h4>
+              <div class="open-description">
+                <p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
+                <a target="_blank" href="#read">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-lg-0 mt-3 pt-lg-0 pt-3">
+            <div class="card text-center">
+              <div class="icon-holder">
+                <span class="fa fa-clock-o service-icon" aria-hidden="true"></span>
+              </div>
+              <h4 class="mission">Excellent Timing</h4>
+              <div class="open-description">
+                <p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
+                <a target="_blank" href="#read">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mt-lg-0 mt-3 pt-lg-0 pt-3">
+            <div class="card text-center">
+              <div class="icon-holder">
+                <span class="fa fa-money service-icon" aria-hidden="true"></span>
+              </div>
+              <h4 class="mission">Budget Friendly</h4>
+              <div class="open-description">
+                <p>Maecenas sodales eu commodo ligula eget dolor dolor sit amet ligula</p>
+                <a target="_blank" href="#read">Read More</a>
+              </div>
+            </div>
+          </div>
+			</div>
+        <!-- end all services -->
+
+		</div>
+</div>
+<!-- end section services -->
+
+
+<!-- start section contact us && get start -->
+<section class="w3l-index6 py-5">
+  <div class="container py-md-3 text-center">
+    <div class="heading text-center mx-auto">
+				<h3 class="head text-white">Developing first class solutions
+          for our clients.</h3>
+				<p class="my-3 head text-white"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+				  Nulla mollis dapibus nunc, ut rhoncus
+				  turpis sodales quis. Integer sit amet mattis quam.</p>
+				  
+			  </div>
+    <div class="buttons mt-5">
+      <a target="_blank" href="contact.html" class="btn btn-outline-primary mr-2 theme-button lft-btn">Contact Us</a>
+      <a target="_blank" href="contact.html" class="btn btn-primary theme-button ml-2">Get Started</a>
+    </div>
+  </div>
+</section>
+<!-- end section contact us && get start -->
+
+<!-- start section about us -->
+<section class="w3l-testimonials" id="testimonials">
+  <div class="customers-6-content py-5">
+    <div class="container py-lg-3">
+      <div class="heading text-center mx-auto">
+        <h3 class="head">What They Says</h3>
+        <p class="my-3 head "> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+          Nulla mollis dapibus nunc, ut rhoncus
+          turpis sodales quis. Integer sit amet mattis quam.</p>
+      </div>
+     
+      <div id="customerhnyCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+          <li data-target="#customerhnyCarousel_1" data-slide-to="0" class="active"></li>
+          <li data-target="#customerhnyCarousel_2" data-slide-to="1"></li>
+        </ol>
+
+        <!--start  Carousel items -->
+        <div class="carousel-inner pb-5">
+          <div id="customerhnyCarousel_2" class="carousel-item active">
+            <div class="customer row py-5 mt-3">
+                <div class="col-lg-4 col-md-6">
+                  <div class="card">
+                  
+                    <div class="card-body">
+                      <img class="card-img-top img-responsive" src="assets/images/c2.jpg" alt="image customer">
+                      <h3 class="card-title mt-2">Mark Waugh</h3>
+                      <p class="sub-title mb-3">Graphic Designer</p>
+                      <p class="card-text">  "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore"
+                      </p>
+                    
+                    
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-4 col-md-6 off-testi-2">
+                  <div class="card">
+                  
+                    <div class="card-body">
+                      <img class="card-img-top img-responsive" src="assets/images/c3.jpg" alt="image customer">
+                      <h3 class="card-title mt-2">Sarina Willams</h3>
+                      <p class="sub-title mb-3">Web Designer</p>
+                      <p class="card-text">  "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore"
+                      </p>
+                    
+                      
+                    </div>
+                  </div>
+                  
+                  
+                </div>
+                <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 off-testi">
+                  <div class="card">
+                  
+                    <div class="card-body">
+                      <img class="card-img-top img-responsive" src="assets/images/c1.jpg" alt="image customer">
+                      <h3 class="card-title mt-2">Henry Nicholas</h3>
+                      <p class="sub-title mb-3">Cofounder</p>
+                      <p class="card-text"> "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore"
+                      </p>
+                    
+                      
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+          <div id="customerhnyCarousel_1" class="carousel-item active">
+            <div class="customer row py-5 mt-3">
+              <div class="col-lg-4 col-md-6">
+                <div class="card">
+                 
+                  <div class="card-body">
+                    <img class="card-img-top img-responsive" src="assets/images/c1.jpg" alt="image customer">
+                    <h3 class="card-title mt-2">Henry Nicholas</h3>
+                    <p class="sub-title mb-3">Cofounder</p>
+                    <p class="card-text">  "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore"
+                    </p>
+                  
+                    
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 off-testi-2">
+                <div class="card">
+                
+                  <div class="card-body">
+                    <img class="card-img-top img-responsive" src="assets/images/c2.jpg" alt="image customer">
+                    <h3 class="card-title mt-2">Mark Waugh</h3>
+                    <p class="sub-title mb-3">Web Designer</p>
+                    <p class="card-text">  "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore"
+                    </p>
+                    
+                  
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 off-testi">
+                <div class="card">
+                  
+                  <div class="card-body">
+                      <img class="card-img-top img-responsive" src="assets/images/c3.jpg" alt="image customer">
+                      <h3 class="card-title mt-2">Sarina Willams</h3>
+                      <p class="sub-title mb-3">Graphic Designer</p>
+                      <p class="card-text">  "Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore"
+                      </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--.item-->
+        
+        </div>
+        <!--end  Carousel items -->
+
+        <!--.carousel-inner-->
+
+      </div>
+    </div>
+  </div>
+  <!--//customers -->
+</section>
+<!-- end section about us -->
+
+
+
+<!-- start section Our services -->
+<section class="w3l-services2" id="stats">
+			<div class="features-with-17_sur py-5">
+				   <div class="container py-md-3">
+					<div class="heading text-center mx-auto">
+						<h3 class="head text-white">What We Offer</h3>
+						<p class="my-3 head "> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+						  Nulla mollis dapibus nunc, ut rhoncus
+						  turpis sodales quis. Integer sit amet mattis quam.</p>
+          </div>
+          <div class="row pt-5 mt-3">
+           <div class="col-lg-5 features-with-17-left_sur">
+                  <h4 class="lft-head">We’re Offering Unmatched Services</h4>
+                  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, dolore. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, dolore. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc Integer sit amet mattis quam.</p>
+                  <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis. Integer sit amet mattis quam.</p>
+                  <div class="stats-1">
+                      <div class="stats-1-left">
+                        <h4>2300</h4>
+                        <h6>Clients</h6>
+                      </div>
+                      <div class="stats-1-left">
+                        <h4>16</h4>
+                        <h6>Awards</h6>
+                      </div>
+                      <div class="stats-1-left">
+                        <h4>2536</h4>
+                        <h6>Projects</h6>
+                      </div>
+                </div>
+						</div>
+						<div class="col-lg-7 my-lg-0 my-5 align-self-center features-with-17-right_sur">
+							<div class="features-with-17-right-tp_sur">
+								<div class="features-with-17-left1">
+									<span class="fa fa-laptop s4"></span>		
+								</div>
+								<div class="features-with-17-left2">
+									<h6><a target="_blank" href="#url">SEO solutions</a></h6>
+									<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, dolore.</p>		
+								</div>
+							</div>
+							<div class="features-with-17-right-tp_sur">
+								<div class="features-with-17-left1">
+										<span class="fa fa-database s5"></span>		
+								</div>
+								<div class="features-with-17-left2">
+										<h6><a target="_blank" href="#url">Social media</a></h6>
+										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, dolore.</p>			
+								</div>
+							</div>
+							<div class="features-with-17-right-tp_sur">
+								<div class="features-with-17-left1">
+									<span class="fa fa-lock s3"></span>		
+								</div>
+								<div class="features-with-17-left2">
+										<h6><a target="_blank" href="#url">Branding Identity</a></h6>
+										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, dolore.</p>	
+								</div>
+							</div>
+							<div class="features-with-17-right-tp_sur">
+								<div class="features-with-17-left1">
+										<span class="fa fa-codepen s2"></span>		
+								</div>
+								<div class="features-with-17-left2">
+										<h6><a target="_blank" href="#url">Content Marketing</a></h6>
+										<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, dolore.</p>	
+								</div>
+							</div>
+							
+							
+						</div>
+					</div>
+				</div>
+			</div>
+</section>
+<!-- end section Our services -->
+
+
+
+
+
+<section class="w3l-news" id="news">
+  <section id="grids5-block" class="py-5">
+    <div class="container py-lg-3">
+      <div class="heading text-center mx-auto">
+				<h3 class="head">Recent posts and updates</h3>
+				<p class="my-3 head"> Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+				  Nulla mollis dapibus nunc, ut rhoncus
+				  turpis sodales quis. Integer sit amet mattis quam.</p>
+			  </div>
+      <div class="grid-view">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mt-md-4 mt-4">
+            <div class="grids5-info">
+              <a target="_blank" href="blog-single.html" class="d-block zoom"><img src="assets/images/g7.jpg" alt="" class="img-fluid news-image"></a>
+              <div class="blog-info">
+                <ul class="news-top">
+                   <li><a target="_blank" href="#">Corporate,</a></li>
+                   <li><a target="_blank" href="#">Photography</a></li>
+                </ul>
+                <p class="date">Mar 29, 2020</p>
+                <h4><a target="_blank" href="blog-single.html">Plant Trees While Searching The Web</a></h4>
+               
+                <p class="blog-text">Lorem ipsum dolor sit amet nostrum ad minus libero fugiat molestiae ullam ipsam quas unde earum...</p>
+                <a target="_blank" href="blog-single.html" class="btn btn-news">Read More <span class="fa fa-angle-right pl-1"></span> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-md-4 mt-5">
+            <div class="grids5-info">
+              <a target="_blank" href="blog-single.html" class="d-block zoom"><img src="assets/images/g8.jpg" alt="" class="img-fluid news-image"></a>
+              <div class="blog-info">
+                <ul class="news-top">
+                  <li><a target="_blank" href="#">Art,</a></li>
+                  <li><a target="_blank" href="#">Photography</a></li>
+               </ul>
+                <p class="date">Sep 28, 2020</p>
+                <h4><a target="_blank" href="blog-single.html">Why Are Remarketing Ads Important?</a></h4>
+                
+                <p class="blog-text">Lorem ipsum dolor sit amet nostrum ad minus libero fugiat molestiae ullam ipsam quas unde earum...</p>
+                <a target="_blank" href="blog-single.html" class="btn btn-news">Read More <span class="fa fa-angle-right pl-1"></span> </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-md-3 offset-lg-0 col-md-6 mt-md-4 mt-5">
+            <div class="grids5-info">
+              <a target="_blank" href="blog-single.html" class="d-block zoom"><img src="assets/images/g9.jpg" alt="" class="img-fluid news-image"></a>
+              <div class="blog-info">
+                <ul class="news-top">
+                  <li><a target="_blank" href="#">Travel,</a></li>
+                  <li><a target="_blank" href="#">Fashion</a></li>
+               </ul>
+                <p class="date">Dec 28, 2020</p>
+                <h4><a target="_blank" href="blog-single.html">How to Build a Chatbot from Pitch to Promotion</a></h4>
+               
+                <p class="blog-text">Lorem ipsum dolor sit amet nostrum ad minus libero fugiat molestiae ullam ipsam quas unde earum...</p>
+                <a target="_blank" href="blog-single.html" class="btn btn-news">Read More <span class="fa fa-angle-right pl-1"></span> </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+<!-- grids block 5 -->
+<section class="w3l-footer-29-main">
+  <div class="footer-29">
+      <div class="container">
+          <div class="d-grid grid-col-4 footer-top-29">
+              <div class="footer-list-29 footer-1">
+                  <h6 class="footer-title-29">Contact Us</h6>
+                  <ul>
+                      <li><p><span class="fa fa-map-marker"></span>Gaza - Palestine</p></li>
+                      <li><a target="_blank" href="tel:+970569828777"><span class="fa fa-phone"></span> +(970) 569828777</a></li>
+                      <li><a target="_blank" href="mailto:alwed404@gmail.com" class="mail"><span class="fa fa-envelope-open-o"></span> alwed404@gmail.com</a></li>
+                  </ul>
+                  <div class="main-social-footer-29">
+                      <a target="_blank" href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+                      <a target="_blank" href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+                      <a target="_blank" href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+                      <a target="_blank" href="#google-plus" class="google-plus"><span class="fa fa-google-plus"></span></a>
+                      <a target="_blank" href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                  </div>
+              </div>
+              <div class="footer-list-29 footer-2">
+                  <ul>
+                      <h6 class="footer-title-29">Featured Links</h6>
+                      <li><a target="_self" href="#link">Our People</a></li>
+                      <li><a target="_self" href="#link">Latest Media</a></li>
+                      <li><a target="_self" href="#link">Our Branches</a></li>
+                      <li><a target="_self" href="#link">Organisations</a></li>
+                      <li><a target="_self" href="#link">Help</a></li>
+                  </ul>
+              </div>
+              <div class="footer-list-29 footer-3">
+                 
+                  <h6 class="footer-title-29">Newsletter </h6>
+                  <p class="mb-3">Get in your inbox the latest News and</p>
+          <form action="#" class="subscribe" method="post">
+            <input type="email" name="email" placeholder="Email" required="">
+            <button><span class="fa fa-envelope-o"></span></button>
+          </form>
+          <p>Subscribe and get our weekly newsletter</p>
+          <p>We'll never share your email address</p>
+        
+              </div>
+              <div class="footer-list-29 footer-4">
+                  <ul>
+                      <h6 class="footer-title-29">Quick Links</h6>
+                      <li><a target="_blank" href="index.html">Home</a></li>
+                      <li><a target="_blank" href="about.html">About</a></li>
+                      <li><a target="_blank" href="services.html">Services</a></li>
+                      <li><a target="_blank" href="blog.html"> Blog</a></li>
+                      <li><a target="_blank" href="contact.html">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+          <div class="d-grid grid-col-2 bottom-copies">
+              <p class="copy-footer-29">© 2022 Technology Mind. All rights reserved | Designed by <a href="https://nsr404.github.io/mycv_spark/" target="_blank" class="my_website">NSR WADI</a></p>
+               <ul class="list-btm-29">
+                      <li><a href="#link" target="_self">Privacy policy</a></li>
+                      <li><a href="#link" target="_self">Terms of service</a></li>
+                      
+                  </ul>
+          </div>
+      </div>
+  </div>
+  <!-- move top -->
+  <button onclick="topFunction()" id="movetop" title="Go to top">
+    <span class="fa fa-angle-up"></span>
+  </button>
+  <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () {
+      scrollFunction()
+    };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("movetop").style.display = "block";
+      } else {
+        document.getElementById("movetop").style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+  </script>
+  <!-- /move top -->
+</section>
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+<!-- //footer-28 block -->
+</section>
+<script>
+  $(function () {
+    $('.navbar-toggler').click(function () {
+      $('body').toggleClass('noscroll');
+    })
+  });
+</script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="../../../../../../../code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="../../../../../../../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="../../../../../../../stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+
+<!-- Template JavaScript -->
+<script src="assets/js/all.html"></script>
+<!-- Smooth scrolling -->
+<!-- <script src="assets/js/smoothscroll.js"></script> -->
+<script src="assets/js/owl.carousel.js"></script>
+
+<!-- script for -->
+<script>
+  $(document).ready(function () {
+    $('.owl-one').owlCarousel({
+      loop: true,
+      margin: 0,
+      nav: true,
+      responsiveClass: true,
+      autoplay: false,
+      autoplayTimeout: 5000,
+      autoplaySpeed: 1000,
+      autoplayHoverPause: false,
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        480: {
+          items: 1,
+          nav: false
+        },
+        667: {
+          items: 1,
+          nav: true
+        },
+        1000: {
+          items: 1,
+          nav: true
+        }
+      }
+    })
+  })
+</script>
+<!-- //script -->
+
+
+
+
+
+
+  <!-- cursor js -->
+  <script>
+    const cursor = document.querySelector('.cursor');
+
+document.addEventListener('mousemove', e => {
+  cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+})
+
+document.addEventListener('click', () => {
+  cursor.classList.add("expand");
+
+  setTimeout(() => {
+      cursor.classList.remove("expand");
+  }, 500)
+})
+</script>
+</body>
+
+
+</html>
+
+
+
+
+
+<!-- 
+
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<script>
+(function(){
+if(typeof _bsa !== 'undefined' && _bsa) {
+	// format, zoneKey, segment:value, options
+	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
+}
+})();
+</script>
+<script>
+(function(){
+	if(typeof _bsa !== 'undefined' && _bsa) {
+  		// format, zoneKey, segment:value, options
+  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
+  	}
+})();
+</script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src='https://www.googletagmanager.com/gtag/js?id=G-98H8KRKT85'></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-98H8KRKT85');
+</script>
+
+
+ -->
