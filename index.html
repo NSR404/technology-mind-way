@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="robots" content="noindex">
 
-    <title>Technology Mind</title>
+    <title>Technology Mind-Home</title>
     <!-- web fonts -->
     <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Hind&amp;display=swap" rel="stylesheet">
@@ -17,18 +17,14 @@
 
     <!-- File  CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   </head>
-  <body>
 
 <body>
 <!-- New toolbar-->
 <style>
-* {
-  box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-}
-
-
 #w3lDemoBar.w3l-demo-bar {
   top: 0;
   right: 0;
@@ -163,18 +159,17 @@ RIGHT SIDEBAR TOGGLE SECTION
 }
 </style>
 
-   <!-- cursor -->
-   <div class="cursor"></div>
-  <!-- end cursor -->
+<!-- start cursor -->
+<div class="cursor"></div>
+<!-- end cursor -->
 
 
-<!--w3l-header-->
-<!-- start section header -->
+<!-- start section header -> navbar -->
 <header class="w3l-header-nav">
 	<!--/nav-->
 	<nav class="navbar navbar-expand-lg navbar-light fill px-lg-0 py-0 px-3">
 		<div class="container">
-			<a target="_blank" class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="index.html">
         <img src="assets/images/Brand/way.png" class="image_logo" alt="image-logo">   </a>
 			<button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -184,27 +179,28 @@ RIGHT SIDEBAR TOGGLE SECTION
 
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav ml-auto pl-lg-5">
-					<li class="nav-item @@home__active">
-						<a target="_blank" class="nav-link" href="index.html">Home</a>
+					<li class="nav-item ">
+						<a  class="nav-link" href="index.html">Home</a>
 					</li>
-					<li class="nav-item @@about__active">
+					<li class="nav-item ">
 						<a target="_blank" class="nav-link" href="about.html">About</a>
 					</li>
-					<li class="nav-item @@services__active">
-						<a target="_blank" class="nav-link" href="services.html">Services</a>
+					<li class="nav-item ">
+						<a target="_blank" class="nav-link" href="services.html" >Services</a>
 					</li>
-					<li class="nav-item dropdown @@blog__active">
-						<a target="_blank" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+          <li class="nav-item dropdown ">
+						<a  class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
 							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 							Pages <span class="fa fa-angle-down"></span>
 						</a>
 						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-							<a target="_blank" class="dropdown-item" href="blog.html">Blog</a>
-							<a target="_blank" class="dropdown-item" href="blog-single.html">Blog Single</a>
-							<a target="_blank" class="dropdown-item" href="single.html">Landing Page</a>
+							<a  class="dropdown-item" href="blog.html">Blog</a>
+							<a  class="dropdown-item" href="blog-single.html">Blog Single</a>
+							<a  class="dropdown-item" href="single.html">Landing Page</a>
 						</div>
-					</li>
-					<li class="nav-item @@contact__active">
+					</li>			
+
+					<li class="nav-item ">
 						<a target="_blank" class="nav-link" href="contact.html">Contact</a>
 					</li>
 				</ul>
@@ -223,7 +219,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 							</form>
 
 						</div>
-						<a target="_blank" class="close" href="#close">×</a>
+						<a class="close" href="#close">×</a>
 					</div>
 					<!-- /search popup -->
 				</div>
@@ -234,8 +230,8 @@ RIGHT SIDEBAR TOGGLE SECTION
 	</nav>
 	<!--//nav-->
 </header>
-<!-- end section header -->
-<!-- end w3l-header -->
+<!-- end section header -> navbar -->
+
 
 <!-- start carousel & slider -->
 <section class="w3l-main-slider" id="home">
@@ -395,6 +391,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 </section>
 <!-- end carousel & slider -->
 
+
 <!-- start aboute section  -->
 <section class="w3l-features-4">
 	<!-- start features -->
@@ -516,11 +513,12 @@ RIGHT SIDEBAR TOGGLE SECTION
 			  </div>
     <div class="buttons mt-5">
       <a target="_blank" href="contact.html" class="btn btn-outline-primary mr-2 theme-button lft-btn">Contact Us</a>
-      <a target="_blank" href="contact.html" class="btn btn-primary theme-button ml-2">Get Started</a>
+      <a target="_blank" href="contact.html" class="btn  theme-button ml-2">Get Started</a>
     </div>
   </div>
 </section>
 <!-- end section contact us && get start -->
+
 
 <!-- start section about us -->
 <section class="w3l-testimonials" id="testimonials">
@@ -649,7 +647,6 @@ RIGHT SIDEBAR TOGGLE SECTION
 <!-- end section about us -->
 
 
-
 <!-- start section Our services -->
 <section class="w3l-services2" id="stats">
 			<div class="features-with-17_sur py-5">
@@ -727,9 +724,7 @@ RIGHT SIDEBAR TOGGLE SECTION
 <!-- end section Our services -->
 
 
-
-
-
+<!-- start section posts  -->
 <section class="w3l-news" id="news">
   <section id="grids5-block" class="py-5">
     <div class="container py-lg-3">
@@ -794,7 +789,10 @@ RIGHT SIDEBAR TOGGLE SECTION
     </div>
   </section>
 </section>
-<!-- grids block 5 -->
+<!-- end section posts  -->
+
+
+<!-- start section footer -->
 <section class="w3l-footer-29-main">
   <div class="footer-29">
       <div class="container">
@@ -828,12 +826,12 @@ RIGHT SIDEBAR TOGGLE SECTION
                  
                   <h6 class="footer-title-29">Newsletter </h6>
                   <p class="mb-3">Get in your inbox the latest News and</p>
-          <form action="#" class="subscribe" method="post">
-            <input type="email" name="email" placeholder="Email" required="">
-            <button><span class="fa fa-envelope-o"></span></button>
-          </form>
-          <p>Subscribe and get our weekly newsletter</p>
-          <p>We'll never share your email address</p>
+                  <form action="#" class="subscribe" method="post">
+                    <input type="email" name="email" placeholder="Email" required>
+                    <button><span class="fa fa-envelope-o"></span></button>
+                  </form>
+                  <p>Subscribe and get our weekly newsletter</p>
+                  <p>We'll never share your email address</p>
         
               </div>
               <div class="footer-list-29 footer-4">
@@ -857,60 +855,35 @@ RIGHT SIDEBAR TOGGLE SECTION
           </div>
       </div>
   </div>
-  <!-- move top -->
-  <button onclick="topFunction()" id="movetop" title="Go to top">
-    <span class="fa fa-angle-up"></span>
-  </button>
-  <script>
-    // When the user scrolls down 20px from the top of the document, show the button
-    window.onscroll = function () {
-      scrollFunction()
-    };
-
-    function scrollFunction() {
-      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("movetop").style.display = "block";
-      } else {
-        document.getElementById("movetop").style.display = "none";
-      }
-    }
-
-    // When the user clicks on the button, scroll to the top of the document
-    function topFunction() {
-      document.body.scrollTop = 0;
-      document.documentElement.scrollTop = 0;
-    }
-  </script>
-  <!-- /move top -->
+     <!-- start move top -->
+     <button onclick="topFunction()" id="movetop" title="Go to top">
+      <span class="fa fa-angle-up"></span>
+    </button>
+       <!-- end move top -->
 </section>
-<script src="assets/js/jquery-3.3.1.min.js"></script>
-<!-- //footer-28 block -->
-</section>
+<!-- end section footer -->
+
+
+<!--start navbar-toggler by js -->
 <script>
-  $(function () {
-    $('.navbar-toggler').click(function () {
-      $('body').toggleClass('noscroll');
-    })
-  });
-</script>
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="../../../../../../../code.jquery.com/jquery-3.4.1.slim.min.js"
-  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-</script>
-<script src="../../../../../../../cdn.jsdelivr.net/npm/popper.js%401.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-<script src="../../../../../../../stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  // $(function () {
+  //   $('.navbar-toggler').click(function () {
+  //     $('body').toggleClass('noscroll');
+  //   })
+  // });
 </script>
 
-<!-- Template JavaScript -->
-<script src="assets/js/all.html"></script>
+
+<!-- jquery js -->
+<script src="assets/js/jquery-3.3.1.min.js"></script>
+
+
 <!-- Smooth scrolling -->
 <!-- <script src="assets/js/smoothscroll.js"></script> -->
 <script src="assets/js/owl.carousel.js"></script>
 
-<!-- script for -->
+
+<!--start script for carousel -->
 <script>
   $(document).ready(function () {
     $('.owl-one').owlCarousel({
@@ -919,7 +892,7 @@ RIGHT SIDEBAR TOGGLE SECTION
       nav: true,
       responsiveClass: true,
       autoplay: false,
-      autoplayTimeout: 5000,
+      autoplayTimeout: 3000,
       autoplaySpeed: 1000,
       autoplayHoverPause: false,
       responsive: {
@@ -943,14 +916,10 @@ RIGHT SIDEBAR TOGGLE SECTION
     })
   })
 </script>
-<!-- //script -->
+<!-- end script for carousel -->
 
 
-
-
-
-
-  <!-- cursor js -->
+<!-- start cursor js -->
   <script>
     const cursor = document.querySelector('.cursor');
 
@@ -966,50 +935,54 @@ document.addEventListener('click', () => {
   }, 500)
 })
 </script>
+<!-- start cursor js -->
+
+
+<!-- start move top  by js -->
+<script>
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function () {
+    scrollFunction()
+  };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      document.getElementById("movetop").style.display = "block";
+    } else {
+      document.getElementById("movetop").style.display = "none";
+    }
+  }
+
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+</script>
+<!-- start move top  by js -->
+
+
+<!-- start dropdown-toggle in > navbar -->
+<script>
+  //  let dropdown = document.querySelector('.dropdown');
+  //  let dropdown_menu = document.querySelector('.dropdown-menu');
+
+  //   dropdown.onclick = function() {
+  //   dropdown_menu.classList.add('active');
+  //        }
+  //   dropdown.onclick = function() {
+  //   dropdown_menu.classList.remove('active');
+  //        }
+</script>
+<!-- end dropdown-toggle in > navbar -->
+
+
+<!-- bootstrap library -->
+<script src="assets/js/bootstrap.min.js"></script>
+
 </body>
-
-
 </html>
 
 
 
 
-
-<!-- 
-
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('flexbar', 'CKYI627U', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-<script>
-(function(){
-if(typeof _bsa !== 'undefined' && _bsa) {
-	// format, zoneKey, segment:value, options
-	_bsa.init('fancybar', 'CKYDL2JN', 'placement:demo');
-}
-})();
-</script>
-<script>
-(function(){
-	if(typeof _bsa !== 'undefined' && _bsa) {
-  		// format, zoneKey, segment:value, options
-  		_bsa.init('stickybox', 'CKYI653J', 'placement:w3layoutscom');
-  	}
-})();
-</script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src='https://www.googletagmanager.com/gtag/js?id=G-98H8KRKT85'></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-98H8KRKT85');
-</script>
-
-
- -->
